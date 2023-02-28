@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.htruong.testdatepicker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "414cddbf-8ebe-495b-87a6-8f4873d9d0d8"
+      }
     }
-  }
+  },
+  "plugins": [
+    "react-native-date-picker"
+  ]
 }
